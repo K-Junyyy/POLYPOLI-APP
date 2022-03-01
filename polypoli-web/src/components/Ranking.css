@@ -1,0 +1,167 @@
+.rangking-nav-wrapper {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.rangking-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #36373c;
+}
+
+.rangking-nav-underline {
+  position: relative;
+  top: 5px;
+  padding: 2px;
+  background: #4f0d92;
+  transition: ease-in-out 0.3s;
+}
+
+.ranking-calendar {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 0px 60px;
+}
+
+.ranking-calendar-this-week {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ranking-calendar-arrow {
+  width: "40px";
+  cursor: "pointer";
+}
+
+.ranking-top-congressman {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ranking-top-ranker-icon {
+  position: relative;
+  height: 30px;
+}
+
+.ranking-top-congressman-2nd,
+.ranking-top-congressman-3rd {
+  margin-top: 18px;
+}
+
+.ranking-top-congressman-profile-img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+}
+
+.ranking-top-congressman-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #36373c;
+}
+.ranking-top-congressman-party {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #888e95;
+}
+.ranking-top-congressman-likes {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+}
+
+.ranking-list {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
+
+.ranking-list-column {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #888e95;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
+}
+
+.ranking-list-bar {
+  width: 100%;
+  margin-top: 6px;
+  border: 0.8px solid #e1e6e8;
+  background-color: #e1e6e8;
+}
+
+.ranking-list-item {
+  position: relative;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  height: 48px;
+}
+
+.ranking-list-item-position-1,
+.ranking-list-item-position-2,
+.ranking-list-item-position-3,
+.ranking-list-item-position-4,
+.ranking-list-item-position-5 {
+  position: absolute;
+}
+
+.ranking-list-item-position-1 {
+  left: 6.5%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+.ranking-list-item-position-2 {
+  left: 13%;
+}
+.ranking-list-item-position-3 {
+  left: 26%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+}
+.ranking-list-item-position-4 {
+  left: 52%;
+
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #36373c;
+}
+.ranking-list-item-position-5 {
+  left: 84%;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #36373c;
+}

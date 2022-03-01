@@ -1,0 +1,139 @@
+.find-account-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+  font-size: 16px;
+  color: #36373c;
+  height: 70px;
+  margin: 0px 30px;
+}
+
+.find-account-head i {
+  font-size: 21px;
+}
+
+.find-account-nav {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 60px;
+  color: #36373c;
+  height: 60px;
+}
+
+.find-account-nav div {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.find-account-contents {
+  margin: 0px 30px;
+}
+
+.find-account-text {
+  margin: 50px 0px;
+}
+
+.find-account-id-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #36373c;
+  height: 220px;
+}
+
+.find-account-id-result div:nth-child(1) {
+  font-weight: normal;
+}
+
+.find-account-id-result div {
+  margin: 12.5px 0px;
+}
+
+.find-account-btn {
+  background: #4f0d92;
+  border-radius: 10px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  width: 100%;
+  color: #ffffff;
+  border: 0px;
+}
+
+.find-account-footer {
+  margin-top: 30px;
+  text-align: left;
+}
+.find-account-footer-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888e95;
+  cursor: pointer;
+}
+.find-account-footer-text {
+  margin-top: 13px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  color: #c7c8ce;
+}
+
+.find-account-password-input {
+  border: 1px solid #c7c8ce;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  height: 45px;
+}
+
+.find-account-password-input input {
+  width: 75%;
+  border: 0 solid black;
+  outline: none;
+}
+
+.find-account-password-input button {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #36373c;
+  height: 27px;
+  background: #e1e6e8;
+  border-radius: 5px;
+  border: 0px;
+  width: 25%;
+}
+
+.find-account-password-error-msg {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #ff2828;
+  text-align: left;
+  margin: 4px 0px 7px 3px;
+  height: 14px;
+}
+
+.find-account-password-reset-wrapper {
+  margin-top: 50px;
+}
+
+.find-account-password-reset-text {
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #36373c;
+}

@@ -1,0 +1,133 @@
+.congressman-profile-list-box {
+  display: grid;
+  grid: subgrid;
+  /* margin-top: 3px; */
+  grid-template-columns: 18px 80px 110px;
+  grid-template-rows: 23px 35px 23px 22px 30px;
+  background: white;
+}
+
+.congressman-profile-list-title {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.congressman-profile-list-text {
+  margin-left: 20px;
+  margin-top: 7px;
+  font-size: 13px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.congressman-profile-list-image {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.congressman-profile-list-name {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 11px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.congressman-profile-list-party {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  font-size: 13px;
+  margin-left: 11px;
+  text-align: left;
+}
+
+.congressman-profile-list-region {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  font-size: 13px;
+  margin-left: 11px;
+  text-align: left;
+}
+
+.congressman-profile-stamp {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  margin: auto 30px auto auto;
+  cursor: pointer;
+}
+
+.congressman-interest-list-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.congressman-interest-profile-box {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.congressman-interest-profile-image {
+  margin: 0px 0px 0px 20px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.congressman-interest-profile-name {
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.congressman-interest-profile-party {
+  font-size: 13px;
+  margin-top: 2px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.congressman-interest-follow-btn {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+  width: 70px;
+  height: 24.19px;
+  background: #4f0d92;
+  border: 0px;
+  border-radius: 5px;
+  margin: 0px 20px 0px auto;
+}

@@ -1,0 +1,129 @@
+.feed-box {
+  display: grid;
+  grid: subgrid;
+  grid-template-columns: 20px 50px 110px 1fr 13px;
+  grid-template-rows: 40px 40px;
+}
+
+.profile-image-box {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 40px;
+  width: 40px;
+}
+
+.profile-image {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.name {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.date {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-weight: 400;
+  color: #888e95;
+  font-size: 10px;
+  text-align: left;
+}
+
+.content {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  line-height: 15px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.like {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 1px solid #c7c8ce;
+  outline: 0;
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 45px;
+}
+
+.dislike {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  border: 1px solid #c7c8ce;
+  outline: 0;
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 45px;
+}
+
+.like i,
+.dislike i {
+  font-size: 25px;
+  margin: auto 15px auto auto;
+}
+
+.like div,
+.dislike div {
+  font-size: 15px;
+  margin: auto auto auto 0px;
+}
+
+/* .like i,
+.dislike i {
+  float: left;
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+.like div,
+.dislike div {
+  float: left;
+  font-size: 15px;
+  margin-left: 13px;
+  margin-top: 8px;
+} */
+
+.feed-link-btn {
+  border: 0px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #888e95;
+}
+
+.feed-bottom-margin {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  height: 8px;
+  background-color: #e1e6e8;
+}

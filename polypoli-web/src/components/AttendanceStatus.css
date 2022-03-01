@@ -1,0 +1,48 @@
+.attendance-status-box {
+  display: grid;
+  grid: subgrid;
+  grid-template-rows: 40px;
+  grid-template-columns: 20px 25px 265px 30px 20px;
+  background: white;
+  padding-bottom: 20px;
+}
+
+.attendance-status-date {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 10px;
+  text-align: left;
+  line-height: 14px;
+  color: #888e95;
+  margin: auto;
+}
+
+.attendance-status-contents {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  font-size: 13px;
+  text-align: left;
+  line-height: 19px;
+  color: #36373c;
+  display: flex;
+  align-items: center;
+  padding: 0px 11px;
+}
+
+.attendance-status {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.attendance-status-footer {
+  font-weight: normal;
+  font-size: 15px;
+  color: #888e95;
+  line-height: 22px;
+  text-align: center;
+  background-color: white;
+}

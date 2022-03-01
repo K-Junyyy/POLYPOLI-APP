@@ -1,0 +1,63 @@
+.phone-number-authentication-input-box {
+  border: 1px solid #c7c8ce;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone-number-authentication-input-box input {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0 solid black;
+  outline: none;
+}
+
+.phone-number-authentication-time {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ff5353;
+  margin-right: 5px;
+  width: 30%;
+}
+
+.phone-number-authentication-resend-btn {
+  font-size: 10px;
+  line-height: 14px;
+  color: #36373c;
+  width: 80px;
+  height: 27px;
+  background: #e1e6e8;
+  border-radius: 5px;
+  border: 0px;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.phone-number-authentication-error-msg {
+  font-size: 10px;
+  line-height: 14px;
+  color: #ff2828;
+  text-align: left;
+  margin-top: 9px;
+  margin-left: 3px;
+  height: 14px;
+}
+
+.phone-number-authentication-btn-box {
+  height: 45px;
+  width: 100%;
+  background: #4f0d92;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  border: 0px;
+  margin-top: 20px;
+}

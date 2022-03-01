@@ -1,0 +1,68 @@
+.modal-background {
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.modal-box {
+  position: absolute;
+  top: calc(40%);
+  left: calc(50% - 140px);
+  background-color: white;
+  border: 1px solid #e1e6e8;
+  border-radius: 10px;
+  width: 280px;
+  z-index: 99999;
+}
+
+.modal-msg {
+  font-size: 14px;
+  line-height: 20px;
+  color: #151514;
+  margin: 30px;
+}
+
+.modal-bar {
+  border: 1px solid #e1e6e8;
+  background-color: #e1e6e8;
+}
+
+.modal-btn-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-btn-cancle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  padding-top: 7px;
+  cursor: pointer;
+  width: 100%;
+  height: 37px;
+  border-right: 1px solid #e1e6e8;
+}
+
+.modal-btn-confirm {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #c7c8ce;
+  padding-top: 7px;
+  cursor: pointer;
+  width: 100%;
+  height: 37px;
+}
+
+.modal-btn-yes-only {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #5d5fef;
+  padding-top: 7px;
+  cursor: pointer;
+  width: 100%;
+  height: 37px;
+}

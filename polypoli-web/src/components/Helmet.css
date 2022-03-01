@@ -1,0 +1,35 @@
+.helmet-head {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.helmet-top {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #36373c;
+  margin-top: 23px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.helmet-progress-bar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 80px;
+  height: 4px;
+  background: #f1f2f4;
+  border-radius: 5px;
+  margin-top: 74px;
+  margin-bottom: 54px;
+}
+.helmet-progress {
+  height: 4px;
+  background: #888e95;
+  border-radius: 5px;
+}

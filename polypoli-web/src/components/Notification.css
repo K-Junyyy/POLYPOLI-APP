@@ -1,0 +1,107 @@
+.notification-new-title,
+.notification-confirmed-title {
+  height: 57px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #36373c;
+  text-align: left;
+  padding: 20px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.notification-box {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 20px 60px 260px 20px;
+  animation: fadeInUp 1s;
+}
+
+.notification-img-box {
+  grid-column: 2 / 3;
+  margin: auto;
+}
+.notification-img-box img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.notification-msg-box {
+  grid-column: 3 / 4;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.notification-msg {
+  font-size: 13px;
+  line-height: 19px;
+  color: #36373c;
+  margin-top: 5px;
+}
+
+.notification-date {
+  font-size: 10px;
+  line-height: 14px;
+  color: #888e95;
+  position: absolute;
+  bottom: 20px;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.test-btn {
+  border-radius: 10px;
+  border: 2px solid grey;
+  background-color: white;
+}
+
+.test-btn:hover,
+.test-btn:focus {
+  animation-duration: 3s;
+  animation-name: rainbowLink;
+  animation-iteration-count: infinite;
+}
+@keyframes rainbowLink {
+  0% {
+    background-color: #ff2a2a;
+  }
+  15% {
+    background-color: #ff7a2a;
+  }
+  30% {
+    background-color: #ffc52a;
+  }
+  45% {
+    background-color: #43ff2a;
+  }
+  60% {
+    background-color: #2a89ff;
+  }
+  75% {
+    background-color: #202082;
+  }
+  90% {
+    background-color: #6b2aff;
+  }
+  100% {
+    background-color: #e82aff;
+  }
+}

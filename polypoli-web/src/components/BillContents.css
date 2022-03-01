@@ -1,0 +1,119 @@
+.bill-contents-wrapper {
+  margin: 20px;
+  padding-bottom: 170px;
+}
+
+.bill-contents-title {
+  text-align: left;
+  font-weight: 500;
+}
+
+.bill-contents-subject {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f0d92;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.bill-contents-content {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+  color: #36373c;
+}
+
+.bill-contents-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.bill-contents-link a {
+  text-decoration: none;
+  color: #4f0d92;
+}
+
+.bill-contents-proposers {
+  width: 320px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bill-contents-proposer-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.bill-contents-proposer-party-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.bill-contents-proposer-party {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.bill-contents-proposer-box {
+  margin: 10px;
+}
+
+.bill-contents-like {
+  border: 1px solid #c7c8ce;
+  outline: 0;
+  background-color: #ffffff;
+  height: 45px;
+}
+
+.bill-contents-dislike {
+  border: 1px solid #c7c8ce;
+  outline: 0;
+  background-color: #ffffff;
+  height: 45px;
+}
+
+.bill-contents-like-dislike-box {
+  position: fixed;
+  left: calc(50% - 180px);
+  bottom: 75.5px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bill-contents-like-btn,
+.bill-contents-dislike-btn {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  width: 50%;
+  border: 1px solid #c7c8ce;
+  outline: 0;
+  background-color: #ffffff;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.bill-contents-like-btn i,
+.bill-contents-dislike-btn i {
+  margin-left: 43px;
+  margin-right: 15px;
+  font-size: 25px;
+}

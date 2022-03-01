@@ -1,0 +1,106 @@
+.hot-topic-calendar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 12px 90px 16px 90px;
+}
+
+.hot-topic-calendar-this-week {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hot-topic-calendar-arrow {
+  width: "40px";
+  cursor: "pointer";
+}
+
+.hot-topic-feed-box {
+  margin-bottom: 8px;
+}
+
+.hot-topic-feed {
+  padding: 20px;
+  text-align: left;
+}
+
+.hot-topic-like-dislike-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hot-topic-like-btn,
+.hot-topic-dislike-btn {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  width: 50%;
+  border: 1px solid #c7c8ce;
+  outline: 0;
+  background-color: #ffffff;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hot-topic-like-btn i,
+.hot-topic-dislike-btn i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.hot-topic-feed-date,
+.hot-topic-feed-count,
+.hot-topic-feed-contents,
+.hot-topic-feed-progress,
+.hot-topic-feed-committee,
+.hot-topic-feed-link {
+  font-weight: 500;
+}
+
+.hot-topic-feed-date {
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+}
+.hot-topic-feed-count {
+  font-size: 12px;
+  line-height: 17px;
+  color: #888e95;
+}
+
+.hot-topic-feed-contents {
+  font-size: 16px;
+  line-height: 23px;
+  color: #36373c;
+  margin-top: 20px;
+}
+.hot-topic-feed-progress,
+.hot-topic-feed-committee {
+  font-size: 16px;
+  line-height: 23px;
+  color: #36373c;
+  margin-top: 9px;
+}
+
+.hot-topic-feed-link {
+  font-size: 14px;
+  line-height: 20px;
+  color: #888e95;
+  margin-top: 9px;
+}
+
+.hot-topic-feed-link-btn {
+  border: 0px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: -5px;
+  color: #888e95;
+}

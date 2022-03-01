@@ -1,0 +1,45 @@
+.bill-processing-status-table-box {
+  display: grid;
+  grid: subgrid;
+  grid-template-rows: 40px;
+  grid-template-columns: 20px 25px 270px 25px 20px;
+  background: white;
+  padding-bottom: 20px;
+}
+
+.bill-processing-status-table-date {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 10px;
+  text-align: left;
+  line-height: 14px;
+  color: #888e95;
+  margin: auto;
+}
+
+.bill-processing-status-table-contents {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  font-size: 13px;
+  text-align: left;
+  line-height: 19px;
+  color: #36373c;
+  display: flex;
+  align-items: center;
+  padding: 0px 11px;
+}
+
+.bill-processing-status-table-link {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  border: 0px;
+  background-color: white;
+}
+
+.bill-processing-status-table-footer {
+  font-size: 15px;
+  color: #888e95;
+  line-height: 22px;
+  text-align: center;
+  background-color: white;
+}

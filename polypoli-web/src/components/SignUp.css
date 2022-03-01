@@ -1,0 +1,459 @@
+.sign-up-wrapper {
+  margin: 0px 30px;
+  position: relative;
+}
+
+.sign-up-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  font-size: 16px;
+  text-align: center;
+  color: #36373c;
+}
+
+.sign-up-head i {
+  font-size: 21px;
+}
+
+.sign-up-progress-bar {
+  width: 80px;
+  height: 4px;
+  background: #f1f2f4;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.sign-up-progress {
+  height: 4px;
+  background: #888e95;
+  border-radius: 5px;
+}
+
+.sign-up-guidance-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #36373c;
+  margin-top: 46px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.sign-up-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  height: 45px;
+  background: #4f0d92;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.sign-up-agree-check-all {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+}
+
+.sign-up-agree-check-all i {
+  margin-right: 14px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.sign-up-bar {
+  border: 1px solid #f1f2f4;
+  background-color: #f1f2f4;
+  margin-top: 24px;
+}
+
+.sign-up-check-list {
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.sign-up-check-list-item {
+  margin: 10px 0px;
+  display: flex;
+}
+
+.sign-up-check-list-item i {
+  font-size: 20px;
+}
+
+.sign-up-check-list-item i:nth-child(1) {
+  text-align: left;
+  color: #c7c8ce;
+  margin-right: 18px;
+}
+
+.sign-up-check-list-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+}
+
+.sign-up-check-list-item i:nth-child(3) {
+  text-align: right;
+  color: #888e95;
+  flex: 1;
+  margin-right: 6px;
+}
+
+.sign-up-tos-modal {
+  position: absolute;
+  padding: 30px 20px;
+  left: -1px;
+  top: 0px;
+  width: 101%;
+  min-height: 600px;
+  background-color: white;
+  text-align: left;
+}
+
+.sign-up-tos-modal i {
+  font-size: 30px;
+  color: #36373c;
+}
+
+.sign-up-tos-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #36373c;
+  margin-top: 38px;
+}
+
+.sign-up-tos-bar {
+  border: 1px solid #888e95;
+  background-color: #888e95;
+  margin-top: 17px;
+}
+
+.sign-up-tos-description {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #36373c;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+/* .sign-up-create-id-box,
+.sign-up-create-password-box {
+} */
+
+.sign-up-create-id-input-box,
+.sign-up-create-password-input-box {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #c7c8ce;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up-create-password-input-box input {
+  width: 100%;
+  border: 0 solid black;
+  outline: none;
+}
+
+.sign-up-create-id-input-box input {
+  width: 100%;
+  border: 0 solid black;
+  outline: none;
+}
+
+.sign-up-create-id-error,
+.sign-up-create-password-error {
+  height: 14px;
+  font-weight: normal;
+  text-align: left;
+  font-size: 10px;
+  line-height: 14px;
+  color: #ff2828;
+  margin-top: 10px;
+  margin-bottom: 21px;
+}
+
+.sign-up-create-password-btn {
+  width: 300px;
+  height: 50px;
+  background: #4f0d92;
+  border-radius: 10px;
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.sign-up-password-check {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #4f0d92;
+  text-align: left;
+  margin-top: 6px;
+  margin-left: 3px;
+}
+
+.sign-up-password-check i {
+  margin-left: 3px;
+}
+
+.sign-up-complete-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #36373c;
+  margin-top: 189px;
+  margin-bottom: 245px;
+}
+
+.sign-up-area-text-box {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #36373c;
+  text-align: left;
+  margin-top: 54px;
+  margin-bottom: 47px;
+}
+
+.sign-up-area-search-input-box {
+  font-size: 14px;
+  line-height: 23px;
+  color: #888e95;
+  height: 45px;
+  border: 1px solid #c7c8ce;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.sign-up-area-search-input-box input {
+  width: 100%;
+  margin-right: 35px;
+  border: 0 solid black;
+  outline: none;
+}
+
+.sign-up-area-warning-msg {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+  text-align: left;
+}
+
+.sign-up-area-search-result {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #36373c;
+  text-align: left;
+}
+
+.sign-up-area-search-result-bar {
+  height: 0px;
+  border: 1px solid #e1e6e8;
+  background-color: #e1e6e8;
+}
+
+.sign-up-area-constituency-member-box {
+  text-align: left;
+}
+
+.sign-up-area-constituency-member-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 70px;
+}
+
+.sign-up-area-congressman-profile-box {
+  margin-top: 35px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sign-up-area-congressman-profile-img-box {
+  width: 60px;
+  height: 60px;
+  margin-right: 11px;
+}
+
+.sign-up-area-congressman-profile-img {
+  width: 60px;
+  height: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.sign-up-area-congressman-profile-content {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #36373c;
+}
+
+.sign-up-area-congressman-profile-content-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.sign-up-area-congressman-profile-content-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 3px;
+}
+
+.sign-up-area-confirm-btn {
+  background: #4f0d92;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  border: 0px;
+  width: 100%;
+  height: 45px;
+  margin-top: 137px;
+}
+
+/* .sign-up-profile-setting-wrapper {
+} */
+
+.sign-up-profile-setting-img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 14px 75px 25px 75px;
+}
+
+.sign-up-profile-setting-img-counter {
+  margin: auto;
+}
+
+.sign-up-profile-setting-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.sign-up-profile-setting-img-select {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 30px;
+  top: 60px;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #e1e6e8;
+  box-sizing: border-box;
+}
+
+.sign-up-profile-setting-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up-profile-setting-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #36373c;
+}
+
+.sign-up-profile-setting-input-box {
+  width: 240px;
+  height: 40px;
+  border: 1px solid #c7c8ce;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sign-up-profile-setting-input-box input {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0 solid black;
+  outline: none;
+}
+
+.sign-up-profile-setting-input-box select {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0px;
+  outline-width: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sign-up-profile-setting-gender input {
+  cursor: pointer;
+}
+
+.sign-up-profile-setting-warning-msg-area {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  margin: 6px 0px 25px 15px;
+  color: #888e95;
+}
+
+.sign-up-profile-setting-warning-msg-user-name {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  margin: 6px 0px 25px 65px;
+  color: #ff2828;
+}
+
+.sign-up-profile-setting-btn-box {
+  background: #c7c8ce;
+  border-radius: 10px;
+}
+
+.sign-up-profile-setting-btn {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #c7c8ce;
+  border: 0px;
+}

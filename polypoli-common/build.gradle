@@ -1,0 +1,29 @@
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'java'
+
+bootJar.enabled = false
+jar.enabled = true
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.6.1'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.6.1'
+
+	//DB
+	implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.12.130'
+
+	//lombok
+	compileOnly 'org.projectlombok:lombok:1.18.22'
+	annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+	//test
+	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.1'
+}
+
+repositories {
+	mavenCentral()
+}
+
+test {
+	useJUnitPlatform()
+}

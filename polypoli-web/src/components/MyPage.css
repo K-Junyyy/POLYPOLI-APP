@@ -1,0 +1,70 @@
+.my-page-profile-box {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+
+.my-page-profile-img {
+  grid-column: 1/2;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+.my-page-profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-column: 2/3;
+  margin: auto 0px auto 25px;
+  text-align: left;
+}
+
+.my-page-profile-info-user-name {
+  font-size: 16px;
+  height: 24px;
+  color: #36373c;
+}
+
+.my-page-profile-info-user-region {
+  font-size: 10px;
+  height: 15px;
+  color: #36373c;
+}
+.my-page-profile-info-user-btn {
+  font-size: 20px;
+  color: #36373c;
+  display: flex;
+  align-items: center;
+}
+.my-page-profile-info-user-btn {
+  font-size: 20px;
+  color: #36373c;
+  display: flex;
+  align-items: center;
+}
+
+.my-page-setting-item-box {
+  font-size: 16px;
+  margin-top: 55px;
+}
+
+.my-page-setting-item-box i {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.my-page-setting-item {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  align-items: center;
+  cursor: pointer;
+  color: #36373c;
+}
+
+.my-page-setting-item:hover {
+  color: #36373c;
+}

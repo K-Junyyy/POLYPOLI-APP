@@ -1,0 +1,67 @@
+nav {
+  display: grid;
+  grid: subgrid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  height: 75.5px;
+  width: 360px;
+}
+nav div {
+  display: block;
+  padding: 0.75em 0;
+  color: #4f0d92;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+}
+.nav-underline {
+  position: absolute;
+  left: 0px;
+  top: 118px;
+  width: 20%;
+  padding: 2px;
+  background: #4f0d92;
+  transition: ease-in-out 0.3s;
+}
+.menu-btn {
+  width: 72px;
+  height: 51.5px;
+  border: 0;
+  outline: 0;
+  background-color: #ffffff;
+}
+
+nav div:nth-child(1).is-current ~ .nav-underline {
+  left: 0%;
+}
+nav div:nth-child(2).is-current ~ .nav-underline {
+  left: 20%;
+}
+nav div:nth-child(3).is-current ~ .nav-underline {
+  left: 40%;
+}
+nav div:nth-child(4).is-current ~ .nav-underline {
+  left: 60%;
+}
+nav div:nth-child(5).is-current ~ .nav-underline {
+  left: 80%;
+}
+
+nav div:nth-child(1):hover ~ .nav-underline {
+  left: 0%;
+}
+nav div:nth-child(2):hover ~ .nav-underline {
+  left: 20%;
+}
+nav div:nth-child(3):hover ~ .nav-underline {
+  left: 40%;
+}
+nav div:nth-child(4):hover ~ .nav-underline {
+  left: 60%;
+}
+nav div:nth-child(5):hover ~ .nav-underline {
+  left: 80%;
+}
